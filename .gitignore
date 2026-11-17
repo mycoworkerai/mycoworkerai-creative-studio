@@ -1,0 +1,22 @@
+# Local and temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.vscode/
+.idea/
+
+# Temporary renders and caches
+.cache/
+.tmp/
+node_modules/
+dist/
+build/
+
+# Keep intentional exports; ignore only scratch output
+exports/**/.temp/
